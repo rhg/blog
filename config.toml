@@ -1,0 +1,31 @@
+baseurl = "http://rhg135.com"
+languageCode = "en"
+title = "tehblog"
+theme = "hemingway2"
+copyright = "No Rights Reserved <a href=\"https://github.com/rhg\">Ricardo Gomez</a>"
+googleAnalytics = ""
+description = "Another blog"
+keywords = ["code"]
+
+[taxonomies]
+tag = "tags"
+category = "categories"
+
+[params]
+
+[params.highlight]
+style = "github"
+languages = ["clojure", "java"]
+
+[[params.social]]
+url = "https://github.com/rhg"
+fa_icon = "fa-github"
+
+[[params.social]]
+url = "https://twitter.com/rhg135"
+fa_icon = "fa-twitter"
+
+[[params.social]]
+url = "/index.xml"
+fa_icon = "fa-rss"
+
